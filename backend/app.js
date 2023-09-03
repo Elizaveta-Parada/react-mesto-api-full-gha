@@ -27,6 +27,12 @@ app.use(helmet());
 app.use(requestLogger);
 app.use('/', require('./routes/auth'));
 
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
+
 app.use(auth);
 app.use('/users', require('./routes/users'));
 app.use('/cards', require('./routes/cards'));
