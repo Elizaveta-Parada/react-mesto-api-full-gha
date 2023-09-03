@@ -1,0 +1,11 @@
+.popup__error {
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: red;
+    width: calc(238px + (358 - 238)*((100vw - 320px)/(1280 - 320)));
+    max-width: 358px;
+    min-height: 30px;
+    padding-top: 5px;
+}

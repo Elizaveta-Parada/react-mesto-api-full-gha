@@ -1,0 +1,10 @@
+.header {
+    width: calc(320px + (880 - 320)*((100vw - 320px)/(1280 - 320)));
+    max-width: 880px;
+    margin: auto;
+    padding-top: calc(28px + (43 - 28)*((100vw - 320px)/(1280 - 320)));
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}

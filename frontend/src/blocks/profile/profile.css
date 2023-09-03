@@ -1,0 +1,26 @@
+.profile {
+    max-width: 880px;
+    width: calc(282px + (880 - 282)*((100vw - 320px)/(1280 - 320)));
+    margin: auto;
+    padding-top: 40px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 120px 1fr 150px;
+    grid-template-areas: 
+    "avatar info button";
+    align-items: center;
+}
+
+@media screen and (max-width: 780px) {
+    .profile {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "avatar" 
+        "info" 
+        "button";
+        justify-items: center;
+        padding-top: 42px;
+        gap: 28px;
+    } 
+}
+    

@@ -1,0 +1,12 @@
+.element__icon {
+    background-image: url(../../../images/heart.svg);
+    border: none;
+    min-height: 19px;
+    min-width: 22px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.element__icon:hover {
+    opacity: 0.5;
+}

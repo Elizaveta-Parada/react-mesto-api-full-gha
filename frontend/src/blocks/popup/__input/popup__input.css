@@ -1,0 +1,23 @@
+.popup__input{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    border: none;
+    padding-bottom: 9px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: calc(238px + (358 - 238)*((100vw - 320px)/(1280 - 320)));
+    max-width: 358px;
+    margin: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+ /* .popup__input:valid {
+    border-bottom: 1px solid green;
+}
+
+.popup__input:invalid {
+    border-bottom: 1px solid red;
+}  */

@@ -1,0 +1,10 @@
+.popup__container-image {
+    height: calc(299px + (540 - 299)*((100vw - 320px)/(1280 - 320)));
+    max-width: 75vw;
+    max-height: 75vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: calc(190px + (90 - 190)*((100vw - 320px)/(1280 - 320))); */
+    position: relative;
+}

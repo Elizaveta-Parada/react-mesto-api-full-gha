@@ -1,0 +1,17 @@
+.profile__edit-button {
+    grid-area: pencil;
+    width: calc(18px + (24 - 18)*((100vw - 320px)/(1280 - 320)));
+    height: calc(18px + (24 - 18)*((100vw - 320px)/(1280 - 320)));
+    max-width: 24px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    background-image: url(../../../images/pencil.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile__edit-button:hover {
+    opacity: 0.6;
+}

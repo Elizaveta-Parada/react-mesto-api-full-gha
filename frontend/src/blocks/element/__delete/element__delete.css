@@ -1,0 +1,15 @@
+.element__delete {
+    background-image: url(../../../images/Trash.png);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 18px;
+    height: 19px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.element__delete:hover {
+    opacity: 0.5;
+}
