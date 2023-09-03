@@ -1,4 +1,4 @@
-const baseUrl = "http://localhost:3000";
+const baseUrl = "http://mesto.backend.nomoredomainsicu.ru";
 
 function processingResponse(res) {
   if (res.ok) {
