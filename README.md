@@ -24,5 +24,5 @@
 ## Ссылки на проект
 
 Frontend  https://mesto.frontend.nomoredomainsicu.ru;
-Backend  https:///mesto.backend.nomoredomainsicu.ru;
+Backend  https://mesto.backend.nomoredomainsicu.ru;
 IP 158.160.35.187;
