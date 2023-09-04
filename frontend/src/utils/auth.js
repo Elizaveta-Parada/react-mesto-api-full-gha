@@ -1,4 +1,4 @@
-const baseUrl = "http://mesto.backend.nomoredomainsicu.ru";
+const baseUrl = "https://mesto.backend.nomoredomainsicu.ru";
 
 function processingResponse(res) {
   if (res.ok) {

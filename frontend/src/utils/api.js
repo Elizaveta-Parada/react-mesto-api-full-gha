@@ -113,7 +113,7 @@ class Api {
 }
 
 const api = new Api({
-    baseUrl: 'http://mesto.backend.nomoredomainsicu.ru',
+    baseUrl: 'https://mesto.backend.nomoredomainsicu.ru',
 })
 
 export default api
